@@ -4,198 +4,229 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Resume Comparison (Grid Layout)</title>
-  <link rel="stylesheet" href="styles.css">
-  <script src="https://cdn.tailwindcss.com"></script>\
-  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
-  <style>
-    #desktop {
-      position: relative;
-      width: 1440px;
-      height: 3473px;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://kit.fontawesome.com/3ea0826fad.js" crossorigin="anonymous"></script>
 </head>
 <body class="bg-gray-100 font-inter">
 
-    <!-- Desktop View Frame -->
-    <div id="desktop" class="bg-white shadow-md overflow-hidden">
-    <!--Profile Container-->
-    <container>
-      <div class="grid grid-cols-2 gap-[24px]">
-        <!-- Profile image -->
-          <div class="text-center">
-            <img src="Images/2d05947e-ba51-4400-936c-d9afef6506a7.JPG" alt="Profile Photo" div class="rounded-2xl h-[120px] w-[120px] object-cover mb-[16px]">
-            <container class="flex justify-center space-x-[16px]">
-              
-          <!--Name and Summary-->
-            <h1 class="mt-[16px] text-[28px] font-bold leading-tight">Kyle Patterson</h1>
-            <p class="text-[14px] text-gray-700 leading-relaxed"><p>Passionate front-end developer with experience building responsive web apps using HTML, CSS. Fast learner and team player.Student at CodeSpace where I have learnt so much about coding in a short amount of time</p>
-            <container class="flex justify-center space-x-[16px] mt-[16px]">
-    </container>
-          </div>
-    
-          <!-- Proficiencies -->
-          <div>
-            <container>
-            <container class="flex flex-col space-y-[16px]">        
-            <h2 class="text-[20px] font-semibold mb-[8px]">Proficiencies</h2>
-            <div class="space-y-[12px]">
-              <div>
-                <p class="text-[14px] mb-[4px]">HTML</p>
-                <div class="skill-bar"><div class="skill-fill-html"></div></div>
-              </div>
-              <div>
-                <p class="text-[14px] mb-[4px]">CSS</p>
-                <div class="skill-bar"><div class="skill-fill-css"></div></div>
-              </div>
-              <div>
-                <p class="text-[14px] mb-[4px]">Github</p>
-                <div class="skill-bar"><div class="skill-fill-github"></div></div>
-              </div>
-                <div>
-                    <p class="text-[14px] mb-[4px]">Git</p>
-                    <div class="skill-bar"><div class="skill-fill-git"></div></div>
-            </div>
-        </container>
-          </div>
-          <!-- Skills Tags -->
-          <div>
-            <h2 class="text-[20px] font-semibold mb-[8px]">Skills</h2>
-            <div class="flex flex-wrap gap-[8px]">
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Software Development</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Team Collaboration</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Git and Version Control</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Problem solving</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">UI design</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Responsive Design</span>
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Web Development</span>    
-                 <span class="px-[12px] py-[4px] bg-gray-200 text-[14px] rounded-full">Attention to detail</span>
-            </div>
-          </div>
+  <div id="desktop" class="max-w-screen-xl mx-auto bg-white shadow-md overflow-hidden p-6 space-y-10">
 
-        <!-- Main Content -->
-        <main class="col-span-4 space-y-[16px]">
-          <!-- Projects -->
-          <section class="bg-white rounded-2xl p-[12px] space-y-[16px]">
-            <h2 class="text-[24px] font-bold">Projects</h2>
-            <div class="grid grid-cols-4 gap-[16px]">
-              <div class="bg-gray-50 p-[16px] rounded-lg project-card">
-                <h3 class="text-[18px] font-semibold">2025</h3>
-                <h3 class="text-[18px] font-semibold">Portfolio Website</h3>
-                <p class="mt-[8px] text-[14px] text-gray-600"><b>Brief:</b> Developed a personal portfolio website to showcase projects and skils.</p>
-                <p class="mt-[4px] text-[14px] text-gray-600"><b>Technologies:</b> React, JavaScript, HTML, CSS</p>
-                <p class="mt-[4px] text-[14px] text-gray-600"><b>Responsibilties:</b> Designed and implemented the website, ensured responsiveness and accessibility.</p>
-              </div>
-              <div class="bg-gray-50 p-[16px] rounded-lg project-card">
-                <h3 class="text-[18px] font-semibold">Another Project</h3>
-                <p class="mt-[8px] text-[14px] text-gray-600">Another project description.</p>
-              </div>
-              <div class="bg-gray-50 p-[16px] rounded-lg project-card">
-                <h3 class="text-[18px] font-semibold">Another Project</h3>
-                <p class="mt-[8px] text-[14px] text-gray-600">Another project description.</p>
-               </div>
-               <div class="bg-gray-50 p-[16px] rounded-lg project-card">
-                <h3 class="text-[18px] font-semibold">Another Project</h3>
-                <p class="mt-[8px] text-[14px] text-gray-600">Another project description.</p>
-               </div>  
-            </div>
-          </section>
-
-            <!-- Education -->
-            <section class="bg-white rounded-2xl p-[24px] space-y-[16px]">
-              <h2 class="text-[24px] font-bold">Education</h2>
-              <div class="grid-grid-row-3 gap-[16px]"></div>
-              <div class="bg-gray-50 p-[16px] rounded-lg education-card"></div>
-                    <p class="text-[14px] text-gray-500">May. 2025 - June 2025</p>
-                    <p class="text-[14px] font-semibold">CodeSpace Academy</p>
-                    <p class="text-[14px] text-gray-600">Software Development</p>
-                    <p class="text-[14px] text-gray-600">Full-time.</p>
-                    <ul>
-                        <li class="text-[14px] text-gray-600">• Completed a 6-month intensive program in software development.</li>
-                        <li class="text-[14px] text-gray-600">• Gained hands-on experience in web development, focusing on HTML, CSS, and JavaScript.</li>
-                        <li class="text-[14px] text-gray-600">• Collaborated on team projects to build responsive web applications.</li>
-                    </ul>
-                 <p class="text-[14px] text-gray-500">Feb. 2021 - Dec. 2022</p>
-                    <p class="text-[14px] font-semibold">IIE Varsity College</p>
-                    <p class="text-[14px] text-gray-600">Higher Certificate in Business Principles and Practices |</p>
-                    <p class="text-[14px] text-gray-600">Full-time.</p>
-                    <ul>
-                        <li class="text-[14px] text-gray-600">• Complete a course which tackled all aspects of a business including general management, accounting, economics and IT.</li>
-                        <li class="text-[14px] text-gray-600">• Gained hands-on experience in entrepreneurship, focusing on the marketing aspect in business.</li>
-                        <li class="text-[14px] text-gray-600">• Collaborated on many projects to build business plans.</li>
-                    </ul>
-                 <p class="text-[14px] text-gray-500">Jan. 2015 - Dec. 2019</p>
-                    <p class="text-[14px] font-semibold">Norman Henshilwood High School</p>
-                    <p class="text-[14px] text-gray-600">Matric | NQF Level 4</p>
-                    <p class="text-[14px] text-gray-600">Full-time.</p>
-                    <ul>
-                        <li class="text-[14px] text-gray-600">• Completed my high school career with 1 distinction.</li>
-                        <li class="text-[14px] text-gray-600">• Gained hands-on experience in understanding what it is I would like to achieve.</li>
-                        <li class="text-[14px] text-gray-600">• Participated in many sports and received two cerificates for them.</li>
-                    </ul>
-                </div>
-            </section>
-
-             <!--Tools-->
-              <h2 class="text-[24px] font-bold mb-[16px]">Tools</h2>
-              <div class="flex flex-wrap gap-[8px]">
-                <div class="tools">
-                <h2 class="text-[20px] font-semibold mb-[8px]">Languages</h2>
-                <i class="fa-brands fa-html5" style="color: #f16609;"></i>
-                <i class="fa-brands fa-css3-alt" style="color: #008efa;"></i>
-                <span class="tool-logo tool-js">JS</span>
-                <h2 class="text-[20px] font-semibold mb-[8px]">Design</h2>
-                <span class="tool-logo tool-figma">F</span>
-                <span class="tool-logo tool-adobe">A</span>
-                <h2 class="text-[20px] font-semibold mb-[8px]">Tools</h2>
-                <i class="fa-brands fa-google" style="color: #13be1e;"></i>
-                <span class="tool-logo tool-github">GH</span>
-            </div>
-          </section>
-
-          <!-- Experience -->
-          <section class="bg-white rounded-2xl p-[24px] space-y-[24px]">
-            <div>
-              <h2 class="text-[24px] font-bold mb-[16px]">Experience</h2>
-              <div class="space-y-[16px]">
-                <div>
-                  <p class="text-[14px] font-semibold">Butlers Pizza Delivery Driver <span class="text-gray-500">• Mar. 2023 – Present</span></p>
-                  <p class="mt-[4px] text-[14px] text-gray-600">Worked as a delivery driver at bulters Pizza.</p>
-                </div>
-                <div>
-                  <p class="text-[14px] font-semibold">Sales Consultant at Zone Fitness <span class="text-gray-500">• Jan. 2022 – Mar. 2022</span></p>
-                  <p class="mt-[4px] text-[14px] text-gray-600">Assisted with the sign up of new clients to the gym.</p>
-                </div>
-                <div>
-                  <p class="text-[14px] font-semibold">Salesman at BlueBird Garage <span class="text-gray-500">• Aug 2022. – Mar. 2023</span></p>
-                  <p class="mt-[4px] text-[14px] text-gray-600">Sold vegan deserts such as brownies and cakes.</p>
-                </div>
-            </div>
-            </section>
-
-
-          <!-- Contact Footer -->
-          <footer class="bg-white rounded-2xl p-[24px] text-center space-y-[12px]">
-            <div class="flex justify-center gap-[16px] text-[14px]"></div>
-            <h2 class="text-[20px] font-semibold">Let's chat! I'm ready to work on exciting projects.</h2>
-            <a href="mailto:kylepatterson1924@gmail.com" class="text-gray-700 hover:text-blue-600">kylepatterson1924@gmail.com |</a>
-            <a href="tel:+27836662415" class="text-gray-700 hover:text-blue-600"> +27836662415 |</a>
-            <a href="https://www.linkedin.com" class="text-gray-700 hover:text-blue-600"> Linkedin |</a>
-            <a href="https://github.com/KylePat25481" class="text-gray-700 hover:text-blue-600"> Github |</a>            
-            </div>
-          </footer>
-        </main>
+    <!-- Profile Section (Full Width) -->
+    <div class="profile-section flex flex-col md:flex-row gap-6 items-center md:items-start">
+      <img src="Images/2d05947e-ba51-4400-936c-d9afef6506a7.JPG" alt="Profile Photo of Kyle Patterson" class="rounded-2xl h-32 w-32 object-cover">
+      <div class="profile-text">
+        <h1 class="text-[28px] font-bold leading-tight">Kyle Patterson</h1>
+        <p class="text-[14px] text-gray-700 leading-relaxed">
+          Passionate front-end developer with experience building responsive web apps using HTML, CSS. Fast learner and team player. Student at CodeSpace where I have learnt so much about coding in a short amount of time.
+        </p>
       </div>
     </div>
 
-    <!-- Mobile View Frame -->
-    <div id="mobile" class="bg-white shadow-md overflow-hidden">
+    <!-- Skills and Proficiencies (Side by Side) -->
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      
+      <!-- Proficiencies -->
+      <section id="proficiencies-heading">
+        <h2 class="text-[20px] font-semibold mb-2">Proficiencies</h2>
+        <div class="space-y-3">
+          <div>
+            <p class="text-[14px] mb-1">HTML</p>
+            <div class="skill-bar bg-gray-200 rounded-full h-2"><div class="skill-fill-html bg-green-900 h-2 w-[90%]"></div></div>
+          </div>
+          <div>
+            <p class="text-[14px] mb-1">CSS</p>
+            <div class="skill-bar bg-gray-200 rounded-full h-2"><div class="skill-fill-css bg-green-900 h-2 w-[85%]"></div></div>
+          </div>
+          <div>
+            <p class="text-[14px] mb-1">GitHub</p>
+            <div class="skill-bar bg-gray-200 rounded-full h-2"><div class="skill-fill-github bg-green-900 h-2 w-[75%]"></div></div>
+          </div>
+          <div>
+            <p class="text-[14px] mb-1">Git</p>
+            <div class="skill-bar bg-gray-200 rounded-full h-2"><div class="skill-fill-git bg-green-900 h-2 w-[80%]"></div></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Skills -->
+      <section id="skills-heading">
+        <h2 class="text-[20px] font-semibold mb-2">Skills</h2>
+        <div class="flex flex-wrap gap-2">
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Software Development</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Team Collaboration</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Git and Version Control</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Problem solving</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">UI design</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Responsive Design</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Web Development</span>
+          <span class="px-[10px] py-[4px] bg-gray-200 text-[12px] rounded-full">Attention to detail</span>
+        </div>
+      </section>
+
+    </div>
+
+    <!-- Projects Section  -->
+    <section aria-labelledby="projects-heading" class="bg-white rounded-2xl p-6 space-y-4">
+      <h2 id="projects-heading" class="text-[24px] font-bold">Projects</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+
+        <article class="bg-gray-50 p-4 rounded-lg project-card flex flex-col justify-between min-h-[280px] relative">
+          <div>
+            <h3 class="text-[16px] font-semibold">Portfolio Website</h3>
+            <p class="text-[14px] text-gray-500 mt-1">2025</p>
+            <p class="mt-2 text-[14px] text-gray-600"><b>Brief:</b> Developed a personal portfolio website to showcase projects and skills.</p>
+            <p class="mt-1 text-[14px] text-gray-600"><b>Technologies:</b> React, JavaScript, HTML, CSS</p>
+            <p class="mt-1 text-[14px] text-gray-600"><b>Responsibilities:</b> Designed and implemented the website, ensured responsiveness and accessibility.</p>
+          </div>
+          <span class="absolute right-4 text-orange-400 text-lg">🧡</span>
+        </article>
+
+        <article class="bg-gray-50 p-4 rounded-lg project-card flex flex-col justify-between min-h-[280px] relative">
+          <div>
+            <h3 class="text-[16px] font-semibold">Another Project</h3>
+            <p class="text-[14px] text-gray-500 mt-1">2025</p>
+            <p class="mt-2 text-[14px] text-gray-600">Another project description.</p>
+          </div>
+          <span class="absolute right-4 text-orange-400 text-lg">🧡</span>
+        </article>
+        <article class="bg-gray-50 p-4 rounded-lg project-card flex flex-col justify-between min-h-[260px] relative">
+            <div>
+                 <h3 class="text-[16px] font-semibold">Another Project</h3>
+                    <p class="text-[14px] text-gray-500 mt-1">2025</p>
+                    <p class="mt-2 text-[14px] text-gray-600">Another project description.</p>
+            </div>
+                <span class="absolute right-4 text-orange-400 text-lg">🧡</span>
+        </article>
+        <article class="bg-gray-50 p-4 rounded-lg project-card flex flex-col justify-between min-h-[260px] relative">
+             <div>
+                 <h3 class="text-[16px] font-semibold">Another Project</h3>
+                     <p class="text-[14px] text-gray-500 mt-1">2025</p>
+                     <p class="mt-2 text-[14px] text-gray-600">Another project description.</p>
+            </div>
+             <span class="absolute right-4 text-orange-400 text-lg">🧡</span>
+        </article>
+            </div>
+    </section>
+
+   <div class="edu-tools-grid">
+            <section id="education-heading" class="space-y-4">
+            <h2 id="education-heading" class="text-[24px] font-bold">Education</h2>
+            <article class="education-item p-4 bg-gray-50 rounded-lg">
+                <p class="text-[14px] text-gray-500">May 2025 - June 2025</p>
+                <h3 class="text-[16px] font-semibold mt-1">CodeSpace Academy</h3>
+                <p class="text-[14px] text-gray-600">Software Development</p>
+                <p class="text-[14px] text-gray-600">Full-time.</p>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Completed a 6-month intensive program in software development.</li>
+                    <li>Gained hands-on experience in web development, focusing on HTML, CSS, and JavaScript.</li>
+                    <li>Collaborated on team projects to build responsive web applications.</li>
+                </ul>
+            </article>
+            <article class="education-item p-4 bg-gray-50 rounded-lg">
+                <p class="text-[14px] text-gray-500">Feb 2021 - Dec 2022</p>
+                <h3 class="text-[16px] font-semibold mt-1">IIE Varsity College</h3>
+                <p class="text-[14px] text-gray-600">Higher Certificate in Business Principles and Practices</p>
+                <p class="text-[14px] text-gray-600">Full-time.</p>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Completed a course which tackled all aspects of a business including general management, accounting, economics and IT.</li>
+                    <li>Gained hands-on experience in entrepreneurship, focusing on the marketing aspect in business.</li>
+                    <li>Collaborated on many projects to build business plans.</li>
+                </ul>
+            </article>
+            <article class="education-item p-4 bg-gray-50 rounded-lg">
+                <p class="text-[14px] text-gray-500">Jan 2015 - Dec 2019</p>
+                <h3 class="text-[16px] font-semibold mt-1">Norman Henshilwood High School</h3>
+                <p class="text-[14px] text-gray-600">Matric | NQF Level 4</p>
+                <p class="text-[14px] text-gray-600">Full-time.</p>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Completed my high school career with 1 distinction.</li>
+                    <li>Gained hands-on experience in understanding what it is I would like to achieve.</li>
+                    <li>Participated in many sports and received two certificates for them.</li>
+                </ul>
+            </article>
+          </section>
+
+            <div class="tools-stack">
+            <section>
+                <h3 class="text-[18px] font-semibold mb-2">Languages</h3>
+                <div class="flex flex-wrap gap-4 items-center">
+        <!-- Languages -->
+                  <i class="fab fa-html5 fa-2x" style="color: #f16609;" title="HTML5"></i>
+                  <i class="fab fa-css3-alt fa-2x" style="color: #008efa;" title="CSS3"></i>
+                  <i class="fa-brands fa-js fa-2x" style="color: #FFD43B;"></i>              
+                </div>
+            </section>
+           <section>
+                <h3 class="text-[18px] font-semibold mb-2">Design</h3>
+                <div class="flex flex-wrap gap-4 items-center">
+        <!-- Design Tools -->
+                <i class="fa-brands fa-figma fa-2x" style="color: #fc97c8;"></i>
+                <i class="fa-brands fa-google fa-2x" style="color: #075ced;"></i> 
+                <i class="fa-brands fa-microsoft fa-2x" style="color: #00c4cc;"></i>   
+                  </div>
+            </section>
+            <section>
+                <h3 class="text-[18px] font-semibold mb-2">Other Tools</h3>
+                <div class="flex flex-wrap gap-4 items-center">
+        <!-- Tools -->
+                  <i class="fab fa-git-alt fa-2x" style="color: #f34f29;" title="Git"></i>
+                  <i class="fab fa-github fa-2x" style="color: #181717;" title="GitHub"></i>
+                  <i class="fa-brands fa-discord fa-2x" style="color: #B197FC;"></i>
+                </div>
+            </section>
+            </div>
+          </div> <!-- End of edu-tools-grid -->
+
+          <section aria-labelledby="experience-item" class="bg-white rounded-2xl p-6 space-y-4">
+            <h2 id="experience-item" class="text-[24px] font-bold">Experience</h2>
+            <div class="space-y-4">
+              <article class="experience-item bg-gray-50 rounded-lg">
+                <h3 class="text-[16px] font-semibold">Butlers Pizza Delivery Driver <span class="text-black-500 font-normal">• Mar 2023 – Present</span></h3>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Worked as a delivery driver at Butlers Pizza.</li>
+                    <li>Ensured timely and accurate delivery of orders.</li>
+                    <li>Maintained a high level of customer satisfaction.</li>
+              </article>
+              <article class="experience-item bg-gray-50 rounded-lg">
+                <h3 class="text-[16px] font-semibold">Sales Consultant at Zone Fitness <span class="text-black-500 font-normal">• Jan 2022 – Mar 2022</span></h3>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Gained a true understanding in sales contracts and how they operate.</li>
+                    <li>Assisted with the management of the store.</li>
+                    <li>Worked as part of a team to achieve sales targets.</li>
+                </ul>
+              </article>
+              <article class="experience-item bg-gray-50 rounded-lg">
+                <h3 class="text-[16px] font-semibold">Salesman at BlueBird Garage <span class="text-black-500 font-normal">• Aug 2022 – Mar 2023</span></h3>
+                <ul class="list-disc list-inside text-[14px] text-gray-600 mt-2 space-y-1">
+                    <li>Sold vegan desserts such as brownies and cakes.</li>
+                    <li>Assisted with the management of the store.</li>
+                    <li>Gained hands-on experience in customer service and sales.</li>
+                </ul>
+              </article>
+            </div>
+          </section>
+        </main>
+
+        <footer class="md:col-span-2 bg-orange-400 text-white rounded-2xl p-6 text-center space-y-3">
+            <h2 class="text-[20px] font-semibold">Let's chat! I'm ready to work on exciting projects.</h2>
+            <div class="flex flex-wrap text-left gap-x-4 gap-y-2 text-[14px]">
+              <a href="mailto:kylepatterson1924@gmail.com">kylepatterson1924@gmail.com</a>
+              <a href="tel:+27836662415">+27836662415</a>
+              <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+              <a href="https://github.com/KylePat25481" target="_blank" rel="noopener noreferrer">GitHub</a>
+            </div>
+        </footer>
+      </div> <!-- End of main grid -->
+    </div> <!-- End of desktop frame -->
+
+    <!-- Mobile View Frame - ADVICE: This entire div should ideally be removed. Use CSS Media Queries for responsiveness on the #desktop content. -->
+    <div id="mobile" class="bg-white shadow-md overflow-hidden hidden"> <!-- Added 'hidden' to hide by default -->
       <div class="w-[375px] mx-auto p-[24px] grid gap-[24px]">
         <!-- Clone desktop content here for mobile frame layout -->
         <!-- Content omitted for brevity -->
       </div>
     </div>
   </div>
-
 </body>
 </html>
